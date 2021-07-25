@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import MapMarker from '../../assets/map-marker.svg'
 import { FiPlus } from 'react-icons/fi'
+import MapComponent from '../../components/Map'
 
 import { Container, SideBar, LinkPlus } from './styles'
 
@@ -20,7 +21,7 @@ const Map: React.FC = () => {
           <span>Suisse</span>
         </footer>
       </SideBar>
-      <div>Map</div>
+      <MapComponent />
       <LinkPlus>
         <Link to="/" className="link">
           <FiPlus size={32} color="#fff" />

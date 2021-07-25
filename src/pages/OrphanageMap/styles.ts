@@ -51,6 +51,8 @@ export const LinkPlus = styled.div`
   right: 40px;
   bottom: 40px;
 
+  z-index: 999;
+
   width: 64px;
   height: 64px;
 
